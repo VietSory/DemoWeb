@@ -1,0 +1,26 @@
+    /* Custom CSS for pagination */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px 15px;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: aqua;
+}
+a{
+    color: black;
+}
+
